@@ -1,0 +1,29 @@
+{
+  "name": "simple-typo",
+  "version": "0.1.0",
+  "description": "Making proper typography simple",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"watch": "node-sass src/main.scss dist/main.css -w",
+
+		"start": "node-sass src/main.scss dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rognstadragnar/simple-typo.git"
+  },
+  "keywords": [
+    "typography",
+    "scss"
+  ],
+  "author": "Ragnar Aasen Rognstad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rognstadragnar/simple-typo/issues"
+  },
+  "homepage": "https://github.com/rognstadragnar/simple-typo#readme",
+  "devDependencies": {
+    "node-sass": "^4.0.0"
+  }
+}
